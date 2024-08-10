@@ -17,5 +17,11 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: '1.22'
+<<<<<<< HEAD
       - name: Run unit tests
         run: go test ./... -cover
+=======
+
+      - name: Run unit tests
+        run: go test ./...
+>>>>>>> 1696d92 (added unit tests)
